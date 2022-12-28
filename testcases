@@ -1,0 +1,7 @@
+import calculation
+import unittest
+
+class String_methods(unittest.Testcase):
+    def Test_add(self):
+        result_1=calculation.add(10,20)
+        self.assertEqual(result_1,30)
